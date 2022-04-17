@@ -3,8 +3,7 @@
 　　使用时直接将文件放入工程中即可，一般在全局错误处理函数中调用。
 
 ## 用法示例
-test.lua 中有一个简单的示例，可以执行 lua ./test.lua 测试。  
-一般的用法如下：
+　　test.lua 中有一个简单的示例，可以执行 lua ./test.lua 测试。一般的用法如下：
 ```Lua
 local fullTraceback = require "fullTraceback"
 function errorTrace(error)
